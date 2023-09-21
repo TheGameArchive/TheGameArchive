@@ -1,0 +1,45 @@
+/* The Game Archive - CSS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+/* Taken from: bl1z33.github.io (commit name: Add bl1zc source)*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #292d3e;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: #fff;
+}
+nav {
+    background-color: #20232a;
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container p {
+    line-height: 1.6;
+}
+footer {
+    background-color: #292d3e;
+    text-align: center;
+    padding: 10px;
+}
